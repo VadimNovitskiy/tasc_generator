@@ -1,14 +1,12 @@
 function* oddNum() {
-    for(let i = 1; i <= 100; i++ ) {
+    for(let i = 1; i <= 100; i += 2 ) {
         yield i;
-        i++;
     }
 }
 
 function* evenNum() {
-    for(let i = 2; i <= 100; i++) {
+    for(let i = 2; i <= 100; i += 2) {
         yield i;
-        i++;
     }
 }
 
